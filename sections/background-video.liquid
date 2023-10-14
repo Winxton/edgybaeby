@@ -12,7 +12,7 @@
         {{ section.settings.background_video_text }}
       </div>
 
-      <a href="{{ collections.all.url }}">
+      <a href="{{ collections.all.url }}" class="video-button-link">
         <div class="video-button">SHOP ALL</div>
       </a>
       </div>
@@ -43,6 +43,11 @@
 .video-button:hover {
   border: 3px solid white;
 }
+
+.video-button-link {
+  text-decoration: none;
+}
+
 .video-button a:hover {
   font-weight: bold;
 }
