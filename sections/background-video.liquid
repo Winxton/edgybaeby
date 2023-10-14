@@ -1,3 +1,24 @@
+<!-- Video -->
+<div class="video-background">
+  <video autoplay loop muted playsinline>
+    <!-- {{ block.settings.video_link }} -->
+    <!-- {{ block.settings.background_video_url }} -->
+    <source src="{{ section.settings.background_video_url }}" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <div class="video-text">
+    <div class="video-content">
+      <div class="video-caption">
+        {{ section.settings.background_video_text }}
+      </div>
+
+      <a href="{{ collections.all.url }}" class="video-button-link" style="text-decoration: none;">
+        <div class="video-button">SHOP ALL</div>
+      </a>
+      </div>
+    </div>
+  </div>
+</div>
 
 {% stylesheet %}
 .video-content {
@@ -24,7 +45,7 @@
 }
 
 .video-button-link {
-  text-decoration: none !important;
+  text-decoration: none;
 }
 
 .video-button a:hover {
@@ -64,29 +85,6 @@
 }
   
 {% endstylesheet %}
-
-<!-- Video -->
-<div class="video-background">
-  <video autoplay loop muted playsinline>
-    <!-- {{ block.settings.video_link }} -->
-    <!-- {{ block.settings.background_video_url }} -->
-    <source src="{{ section.settings.background_video_url }}" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-  <div class="video-text">
-    <div class="video-content">
-      <div class="video-caption">
-        {{ section.settings.background_video_text }}
-      </div>
-
-      <a href="{{ collections.all.url }}" class="video-button-link">
-        <div class="video-button">SHOP ALL</div>
-      </a>
-      </div>
-    </div>
-  </div>
-</div>
-
 
 {% schema %}
   {
