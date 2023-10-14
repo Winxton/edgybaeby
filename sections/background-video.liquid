@@ -1,0 +1,109 @@
+<!-- Video -->
+<div class="video-background">
+  <video autoplay loop muted playsinline>
+    <!-- {{ block.settings.video_link }} -->
+    <!-- {{ block.settings.background_video_url }} -->
+    <source src="{{ section.settings.background_video_url }}" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <div class="video-text">
+
+    <div class="video-content">
+      <div class="video-caption">
+        {{ section.settings.background_video_text }}
+      </div>
+
+      <div class="video-button">
+        SHOP ALL
+      </div>
+    </div>
+
+  </div>
+</div>
+
+{% stylesheet %}
+.video-content {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.video-button {
+  color: #fff;
+  border: 1px solid white;
+  background-color: transparent;
+  padding: 10px 30px;
+  cursor: pointer;
+  border-radius: 18px;
+  font-size: .8em;
+  margin-top: 10px;
+  font-weight: normal;
+}
+  
+.video-background {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.video-background video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Added this property to fix the zoom issue */
+  z-index: -100;
+}
+
+
+.video-text {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    width: 100%;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 1.1em;
+    font-weight: bold;
+    text-align: center;
+    z-index: 1;
+
+    display: flex;
+    justify-content: center;
+}
+  
+{% endstylesheet %}
+
+{% schema %}
+  {
+    "name": "Background Video",
+    "class": "videoBackground",
+    "settings": [
+      {"type": "url",
+        "id": "background_video_url",
+        "label": "Background Video URL"
+      },
+      {
+        "type": "text",
+        "id": "background_video_text",
+        "label": "Background Video Text",
+        "default": "Your Text Here"
+      }
+    ],
+
+    "presets": [
+
+      {
+
+        "name": "Background Video",
+        "category": {
+
+          "en": "Main"
+
+        }
+      }
+    ]
+  }
+{% endschema %}
