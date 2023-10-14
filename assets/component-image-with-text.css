@@ -310,6 +310,7 @@
 .image-with-text:not(.image-with-text--overlap) .color-background-1,
 .image-with-text.image-with-text--overlap .image-with-text__media.color-background-1 {
   background: transparent;
+  background-color: white;
 }
 
 /* Needed for gradient continuity with or without animation, the transform scopes the gradient to its container which happens already when animation are turned on */
