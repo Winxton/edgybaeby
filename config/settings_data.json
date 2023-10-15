@@ -3,6 +3,8 @@
     "logo": "shopify:\/\/shop_images\/Website_Logo_SVG.svg",
     "logo_width": 120,
     "favicon": "shopify:\/\/shop_images\/Lighter_Pink.jpg",
+    "logo2": "shopify:\/\/shop_images\/Website_Logo_Pink.svg",
+    "favicon2": "shopify:\/\/shop_images\/Lighter_Pink.jpg",
     "type_header_font": "open_sans_n4",
     "heading_scale": 100,
     "type_body_font": "open_sans_n4",
@@ -143,10 +145,10 @@
     "color_schemes": {
       "background-1": {
         "settings": {
-          "background": "#fff",
+          "background": "#ffffff",
           "background_gradient": "",
           "text": "#121212",
-          "button": "#fff",
+          "button": "#ffffff",
           "button_label": "#121212",
           "secondary_button_label": "#121212",
           "shadow": "#121212"
