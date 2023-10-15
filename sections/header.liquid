@@ -228,6 +228,20 @@
                   preload: true
                 }}
 
+                {%- assign logo2_alt = settings.logo2.alt | default: shop.name | escape -%}
+                {%- assign logo2_height = settings.logo2_width | divided_by: settings.logo2.aspect_ratio -%}
+                {% capture sizes %}(max-width: {{ settings.logo2_width | times: 2 }}px) 50vw, {{ settings.logo2_width }}px{% endcapture %}
+                {% capture widths %}{{ settings.logo2_width }}, {{ settings.logo2_width | times: 1.5 | round }}, {{ settings.logo2_width | times: 2 }}{% endcapture %}
+                {{ settings.logo2 | image_url: width: 600 | image_tag:
+                  class: 'header__heading-logo motion-reduce',
+                  widths: widths,
+                  height: logo2_height,
+                  width: settings.logo2_width,
+                  alt: logo2_alt,
+                  sizes: sizes,
+                  preload: true
+                }}
+
               </div>
             {%- else -%}
               <span class="h2">{{ shop.name }}</span>
