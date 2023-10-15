@@ -399,7 +399,7 @@ a.product__text {
   font-weight: 600;
 }
 
-.product__description > p{
+.product__description {
   font-size: 0.8em;
 }
 
