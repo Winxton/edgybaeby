@@ -227,7 +227,11 @@
                   preload: true
                 }}
                 
-                <img src="{{ 'logo.svg' |  asset_url }}" alt="logo" class="header__heading-logo header__heading-logo--fallback">
+                <img src="{{ 'logo.svg' |  asset_url }}"
+                  class="header__heading-logo header__heading-logo--fallback"
+                  alt="{{ logo_alt }}",
+                  sizes="{{ sizes }}",
+                  >
 
               </div>
             {%- else -%}
