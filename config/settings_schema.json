@@ -34,12 +34,12 @@
     ]
   },
   {
-    "name": "t:settings_schema.logo2.name",
+    "name": "logo2",
     "settings": [
       {
         "type": "image_picker",
         "id": "logo2",
-        "label": "t:settings_schema.logo2.settings.logo2_image.label"
+        "label": "logo2.settings.logo2_image.label"
       },
       {
         "type": "range",
@@ -49,13 +49,13 @@
         "step": 10,
         "default": 100,
         "unit": "px",
-        "label": "t:settings_schema.logo2.settings.logo2_width.label"
+        "label": "logo2.settings.logo2_width.label"
       },
       {
         "type": "image_picker",
         "id": "favicon2",
-        "label": "t:settings_schema.logo2.settings.favicon2.label",
-        "info": "t:settings_schema.logo2.settings.favicon2.info"
+        "label": "logo2.settings.favicon2.label",
+        "info": "logo2.settings.favicon2.info"
       }
     ]
   },
