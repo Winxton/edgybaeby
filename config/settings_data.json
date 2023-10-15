@@ -180,8 +180,8 @@
           "background_gradient": "",
           "text": "#ffffff",
           "button": "#ffffff",
-          "button_label": "#f7a1bb",
-          "secondary_button_label": "#ffffff",
+          "button_label": "#ffdddd",
+          "secondary_button_label": "#ffdddd",
           "shadow": "#121212"
         }
       },
