@@ -143,13 +143,13 @@
     "color_schemes": {
       "background-1": {
         "settings": {
-          "background": "#ffffff",
+          "background": "#fff",
           "background_gradient": "",
           "text": "#121212",
-          "button": "#ffffff",
+          "button": "#ffdddd",
           "button_label": "#121212",
           "secondary_button_label": "#121212",
-          "shadow": "rgba(0,0,0,0)"
+          "shadow": "#121212"
         }
       },
       "background-2": {
