@@ -69,6 +69,9 @@
         "share",
         "5b136c55-8533-4271-9390-14b412aea79b"
       ],
+      "custom_css": [
+
+      ],
       "settings": {
         "enable_sticky_info": true,
         "media_size": "large",
@@ -87,7 +90,7 @@
     "related-products": {
       "type": "related-products",
       "custom_css": [
-        "h2{font-size: 14px;}"
+        "h2 {font-size: 14px;}"
       ],
       "settings": {
         "heading": "YOU MAY ALSO LIKE",
