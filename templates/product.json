@@ -55,7 +55,7 @@
           "type": "popup",
           "settings": {
             "text": "SIZING",
-            "page": ""
+            "page": "size-chart"
           }
         }
       },
