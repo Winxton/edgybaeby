@@ -3,7 +3,7 @@
     "logo": "shopify:\/\/shop_images\/Website_Logo_SVG.svg",
     "logo_width": 120,
     "favicon": "shopify:\/\/shop_images\/Lighter_Pink.jpg",
-    "logo2": "shopify:\/\/shop_images\/Website_Logo_Pink.svg",
+    "logo2": "shopify:\/\/shop_images\/new_pink_logo_without_shade.svg",
     "logo2_width": 120,
     "favicon2": "shopify:\/\/shop_images\/Lighter_Pink.jpg",
     "type_header_font": "open_sans_n4",
@@ -150,7 +150,7 @@
           "background_gradient": "",
           "text": "#121212",
           "button": "#ffccd2",
-          "button_label": "#fff",
+          "button_label": "#ffffff",
           "secondary_button_label": "#121212",
           "shadow": "#121212"
         }
