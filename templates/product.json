@@ -43,18 +43,19 @@
           "settings": {
           }
         },
-        "share": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
-        },
         "5b136c55-8533-4271-9390-14b412aea79b": {
           "type": "text",
           "disabled": true,
           "settings": {
             "text": "Text block",
             "text_style": "body"
+          }
+        },
+        "37825ed7-b459-4a52-aa7f-3fecc0c7265a": {
+          "type": "popup",
+          "settings": {
+            "text": "SIZING",
+            "page": ""
           }
         }
       },
@@ -66,8 +67,8 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "share",
-        "5b136c55-8533-4271-9390-14b412aea79b"
+        "5b136c55-8533-4271-9390-14b412aea79b",
+        "37825ed7-b459-4a52-aa7f-3fecc0c7265a"
       ],
       "custom_css": [
 
