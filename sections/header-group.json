@@ -5,6 +5,13 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "9b202a91-5dd4-4f97-88db-505590385d51": {
+          "type": "announcement",
+          "settings": {
+            "text": "3 DAYS 10% OFF SITE-WIDE DISCOUNT",
+            "link": ""
+          }
+        },
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
@@ -15,7 +22,7 @@
         "42245146-5173-4547-9396-f81d336ed99f": {
           "type": "announcement",
           "settings": {
-            "text": "SIGN UP AND GET 10% OFF SITE-WIDE",
+            "text": "SIGN UP AND GET 10% OFF",
             "link": "https:\/\/www.edgybaeby.com\/#ContactFooter"
           }
         },
@@ -28,6 +35,7 @@
         }
       },
       "block_order": [
+        "9b202a91-5dd4-4f97-88db-505590385d51",
         "announcement-bar-0",
         "42245146-5173-4547-9396-f81d336ed99f",
         "9078d170-c0a4-4849-a3fe-afea463351ed"
