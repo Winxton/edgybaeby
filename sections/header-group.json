@@ -18,11 +18,19 @@
             "text": "SIGN UP AND GET 10% OFF SITE-WIDE",
             "link": "https:\/\/www.edgybaeby.com\/#ContactFooter"
           }
+        },
+        "9078d170-c0a4-4849-a3fe-afea463351ed": {
+          "type": "announcement",
+          "settings": {
+            "text": "BUY 2 GET THE 3RD SET 50% OFF",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "announcement-bar-0",
-        "42245146-5173-4547-9396-f81d336ed99f"
+        "42245146-5173-4547-9396-f81d336ed99f",
+        "9078d170-c0a4-4849-a3fe-afea463351ed"
       ],
       "settings": {
         "color_scheme": "accent-2",
