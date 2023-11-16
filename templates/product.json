@@ -38,6 +38,13 @@
             "show_gift_card_recipient": true
           }
         },
+        "37825ed7-b459-4a52-aa7f-3fecc0c7265a": {
+          "type": "popup",
+          "settings": {
+            "text": "Size Chart",
+            "page": "size-chart"
+          }
+        },
         "description": {
           "type": "description",
           "settings": {
@@ -50,13 +57,6 @@
             "text": "Text block",
             "text_style": "body"
           }
-        },
-        "37825ed7-b459-4a52-aa7f-3fecc0c7265a": {
-          "type": "popup",
-          "settings": {
-            "text": "SIZING",
-            "page": "size-chart"
-          }
         }
       },
       "block_order": [
@@ -66,9 +66,9 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "37825ed7-b459-4a52-aa7f-3fecc0c7265a",
         "description",
-        "5b136c55-8533-4271-9390-14b412aea79b",
-        "37825ed7-b459-4a52-aa7f-3fecc0c7265a"
+        "5b136c55-8533-4271-9390-14b412aea79b"
       ],
       "custom_css": [
 
