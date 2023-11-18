@@ -95,7 +95,7 @@ img.pink_nails {
 /* Media query for screens smaller than 768px (typical phone width) */
 @media (max-width: 767px) {
   img.pink_nails {
-    width: {{ section.settings.custom_image_width }}px;
+    width: {{ section.settings.custom_image_width }};
   }
 }
 {% endstylesheet %}
@@ -125,7 +125,7 @@ img.pink_nails {
         "id": "custom_image_width",
         "label": "Custom Image Width",
         "info": "Specify the width in pixels (px).",
-        "default": 280
+        "default": 240
       }
     ],
     "presets": [
