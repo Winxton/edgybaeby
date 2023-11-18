@@ -33,7 +33,8 @@
       "type": "background-video",
       "settings": {
         "background_video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/18f3055f58e24b3fa90cbea921e48145.mov",
-        "background_video_text": "UNAPOLOGETICALLY EDGY"
+        "background_video_text": "UNAPOLOGETICALLY EDGY",
+        "custom_image": "shopify:\/\/shop_images\/pink-nails.svg"
       }
     }
   },
