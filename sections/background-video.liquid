@@ -9,11 +9,6 @@
   <div class="video-text">
     <div class="video-content">
 
-      {% if section.settings.custom_image != blank %}
-        <img style="width: {{ section.settings.custom_image_width }}px;" src="{{ section.settings.custom_image | img_url: 'master' }}" alt="Pink Nails" class="pink_nails">
-      {% endif %}
-
-
       <div class="video-caption">
         {{ section.settings.background_video_text }}
       </div>
@@ -21,6 +16,11 @@
       <a href="{{ collections.all.url }}" class="video-button-link" style="text-decoration: none;">
         <div class="video-button"><span>SHOP ALL</span></div>
       </a>
+      
+      {% if section.settings.custom_image != blank %}
+        <img style="width: {{ section.settings.custom_image_width }}px;" src="{{ section.settings.custom_image | img_url: 'master' }}" alt="Pink Nails" class="pink_nails">
+      {% endif %}
+
       </div>
     </div>
   </div>
