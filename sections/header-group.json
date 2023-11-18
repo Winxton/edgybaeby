@@ -7,6 +7,7 @@
       "blocks": {
         "9b202a91-5dd4-4f97-88db-505590385d51": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "3 DAYS 10% OFF SITE-WIDE DISCOUNT",
             "link": ""
