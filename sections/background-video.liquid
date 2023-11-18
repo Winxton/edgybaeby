@@ -10,7 +10,7 @@
     <div class="video-content">
 
       {% if section.settings.custom_image != blank %}
-        <img src="{{ section.settings.custom_image | img_url: 'master' }}" alt="Pink Nails" class="pink_nails">
+        <img width="{{ section.settings.custom_image_width }}" src="{{ section.settings.custom_image | img_url: 'master' }}" alt="Pink Nails" class="pink_nails">
       {% endif %}
 
 
