@@ -9,8 +9,8 @@
   <div class="video-text">
     <div class="video-content">
       
-      <img width="250" src="{{ 'pink-nails.svg' | asset_url }}" alt="Pink nails">
-      
+      <img width="250" src="{{ 'pink-nails.svg' | asset_url }}" alt="Pink nails" class="pink_nails">
+
       <div class="video-caption">
         {{ section.settings.background_video_text }}
       </div>
@@ -82,7 +82,19 @@
     display: flex;
     justify-content: center;
 }
-  
+
+  /* Default styles for all devices */
+img.pink_nails {
+  width: 500px;
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Media query for screens smaller than 768px (typical phone width) */
+@media (max-width: 767px) {
+  img.pink_nails {
+    width: 300px;
+  }
+}
 {% endstylesheet %}
 
 {% schema %}
