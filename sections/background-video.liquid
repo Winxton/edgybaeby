@@ -10,7 +10,7 @@
     <div class="video-content">
 
       {% if section.settings.custom_image != blank %}
-        <img width="280" src="{{ section.settings.custom_image | img_url: 'master' }}" alt="Pink Nails" class="pink_nails">
+        <img width="{{ section.settings.custom_image_width }}" src="{{ section.settings.custom_image | img_url: 'master' }}" alt="Pink Nails" class="pink_nails">
       {% endif %}
 
 
@@ -119,17 +119,20 @@ img.pink_nails {
         "type": "image_picker",
         "id": "custom_image",
         "label": "Upload Your Image"
+      },
+      {
+        "type": "number",
+        "id": "custom_image_width",
+        "label": "Custom Image Width",
+        "info": "Specify the width in pixels (px).",
+        "default": 280
       }
     ],
     "presets": [
-
       {
-
         "name": "Background Video",
         "category": {
-
           "en": "Main"
-
         }
       }
     ]
