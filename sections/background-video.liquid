@@ -8,8 +8,11 @@
   </video>
   <div class="video-text">
     <div class="video-content">
-      
-      <img width="280" src="{{ 'pink-nails.svg' | asset_url }}" alt="Pink nails" class="pink_nails">
+
+      {% if settings.custom_image != blank %}
+        <img width="280" src="{{ settings.custom_image | img_url: 'master' }}" alt="Pink Nails" class="pink_nails">
+      {% endif %}
+
 
       <div class="video-caption">
         {{ section.settings.background_video_text }}
@@ -96,7 +99,7 @@ img.pink_nails {
   }
 }
 {% endstylesheet %}
-
+£
 {% schema %}
   {
     "name": "Background Video",
