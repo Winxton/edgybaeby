@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -17,11 +26,6 @@
         },
         "price": {
           "type": "price",
-          "settings": {
-          }
-        },
-        "judge_me_reviews_preview_badge_UBp7yc": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
           }
         },
@@ -68,7 +72,6 @@
         "vendor",
         "title",
         "price",
-        "judge_me_reviews_preview_badge_UBp7yc",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
@@ -115,17 +118,21 @@
         "padding_bottom": 8
       }
     },
-    "17083904670b7b245b": {
+    "1719513486ea2f84ba": {
       "type": "apps",
       "blocks": {
-        "judge_me_reviews_review_widget_HdziAp": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "fera_product_reviews_aicfBn": {
+          "type": "shopify:\/\/apps\/fera\/blocks\/product_reviews\/2fbfcfa7-8a04-479f-89a8-0621fa099c51",
           "settings": {
+            "heading": "Product Reviews",
+            "layout": "masonry",
+            "star_color": "#ffdddd",
+            "when_no_reviews": "hide"
           }
         }
       },
       "block_order": [
-        "judge_me_reviews_review_widget_HdziAp"
+        "fera_product_reviews_aicfBn"
       ],
       "settings": {
         "include_margins": true
@@ -135,6 +142,6 @@
   "order": [
     "main",
     "related-products",
-    "17083904670b7b245b"
+    "1719513486ea2f84ba"
   ]
 }
